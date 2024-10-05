@@ -59,11 +59,12 @@ public class AppBiodata extends JFrame {
                 txtOutput.append("Nomor : "+nomor+"\n");
                 txtOutput.append("Jenis Kelamin :"+jenisMember+"\n");
             
-                if (checkBoxSelected) {
-                    txtOutput.append("WNA : Ya\n"); 
+                if (checkBox.isSelected()) {
+                    txtOutput.append("WNA : Ya\n");
                 } else {
                     txtOutput.append("WNA : Bukan\n");
-                }  
+                } 
+                
                 txtOutput.append("=========================\n");
                 textFieldnama.setText("");
                 textFieldnomor.setText("");
