@@ -1,4 +1,4 @@
-package Kuliah.Pertemuan5;
+package Kuliah.Pertemuan5.latihan1;
 
 import javax.swing.*; 
 import java.awt.event.*; 
